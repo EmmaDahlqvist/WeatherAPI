@@ -1,0 +1,37 @@
+{
+  "coord": { "lon": 12.4219, "lat": 57.4243 },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 6.78,
+    "feels_like": 4.55,
+    "temp_min": 5.12,
+    "temp_max": 7.27,
+    "pressure": 1000,
+    "humidity": 72,
+    "sea_level": 1000,
+    "grnd_level": 990
+  },
+  "visibility": 10000,
+  "wind": { "speed": 3.14, "deg": 284, "gust": 4.85 },
+  "clouds": { "all": 100 },
+  "dt": 1682434631,
+  "sys": {
+    "type": 2,
+    "id": 19444,
+    "country": "SE",
+    "sunrise": 1682393763,
+    "sunset": 1682448019
+  },
+  "timezone": 7200,
+  "id": 2704885,
+  "name": "Horred",
+  "cod": 200
+}
