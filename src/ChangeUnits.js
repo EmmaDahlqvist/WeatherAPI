@@ -5,8 +5,9 @@ function ChangeUnits({ weatherDataAPI, setNewWeatherDataAPI, setUnit}) {
     function changeUnit(value) {
       var oldLink = weatherDataAPI.slice();
       var splitLink = oldLink.split("units=");
-      var newLink = splitLink[0] + "units=" + value;
+      var newLink = splitLink[0] + "units=" + value; //uppdaterad URL
   
+      //Fixa HTML för enheten (C/F)
       if (value === "imperial") {
         document.getElementById("farenheit").style.display = "block";
         document.getElementById("celsius").style.display = "none";
@@ -15,6 +16,7 @@ function ChangeUnits({ weatherDataAPI, setNewWeatherDataAPI, setUnit}) {
         document.getElementById("celsius").style.display = "block";
       }
   
+      //uppdatera
       setUnit(value);
       setNewWeatherDataAPI(newLink);
     }
